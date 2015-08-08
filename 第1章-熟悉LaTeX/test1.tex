@@ -1,0 +1,75 @@
+% Used for testing on various commands.
+\documentclass[UTF8]{ctexart}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\begin{document}
+This is a footnote\footnote{It's a footnote, you know?}
+
+This is a second footnote\footnote{Another footnote, automatically numbered.}
+
+I'm \emph{emphasized}, look.
+
+\{\} is escaped, so that you can see it. Otherwise it would become a command.
+
+Begin of a piece of quoted text
+\begin{quote}
+	日暮苍山远，天寒白屋贫。
+	
+	柴门闻犬吠，风雪夜归人。
+\end{quote}
+
+End of the quote.
+
+\begin{abstract}
+	This is an abstract.
+\end{abstract}
+
+\begin{Huge}
+	Text in Huge size.
+\end{Huge}
+
+\LARGE{Text in LARGE size.}
+
+\small{Small text.}
+
+\newtheorem{thm1}{测试定理}
+\begin{thm1}[定理4321]
+	In war, truth is the first casualty. -Aeschylus
+\end{thm1}
+
+\newtheorem{thm2}{还是定理}
+\begin{thm2}[定理1234]
+	An eye for an eye makes the whole world blind. - Gandhi
+\end{thm2}
+
+$
+a + b = c
+$
+
+$
+a^2 + b^2 = c^2
+$
+
+$\sin{(x + y)} = \sin{x} \cdot \cos{y} + \cos{y} \cdot \sin{x}$
+
+这是行内公式：$1 + 1 = 2$
+
+这是单行公式：
+\begin{equation}
+E = m c ^ 2
+\end{equation}
+
+这是没编号的单行公式：
+\begin{equation*}
+Q = I ^ 2 Rt\nonumber
+\end{equation*}
+
+$\angle ABC = \frac{\pi}{2}$
+
+$\because f(x) = e^x, g(x) = \ln{x}, $
+
+$\therefore f \circ g(x) = x$
+
+A right angle is $90 ^ \circ$.
+
+\end{document}
